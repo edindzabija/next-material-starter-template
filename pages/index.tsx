@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
@@ -17,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          <Button variant='outlined'>Get started by editing </Button>
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
